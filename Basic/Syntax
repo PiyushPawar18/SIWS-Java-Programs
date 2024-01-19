@@ -1,0 +1,10 @@
+package basic_intro;
+
+public class Syntax {
+    public static void main(String args[]){
+        int n=10;
+        int b=20;
+        System.out.println("additon of "+n+" and "+b+" is = "+n+b);
+        System.out.println("additon of "+n+" and "+b+" is = "+(n+b));
+    }
+}
