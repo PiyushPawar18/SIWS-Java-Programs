@@ -1,0 +1,21 @@
+package basic_intro;
+
+public class TypeCasting {
+    public static void main(String[] args){
+        /*
+        //Implicit type-Casting
+        int i=20;
+        float f=i;
+        System.out.println(f);  //20.0
+        */
+
+
+        /*
+        //Explicit type-Casting
+        float f=90.5f;
+        int i =(int) f;
+        System.out.println(i);//90
+        */
+
+    }
+}
