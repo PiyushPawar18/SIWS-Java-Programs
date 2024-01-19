@@ -1,0 +1,20 @@
+package basic_intro;
+import java.lang.Math;
+
+public class Math_Library
+{
+    public static void main(String[]  args){
+        double d=5.3;  //Declaration and initialization
+        double x;   //Declaration
+        x=Math.sqrt(d);
+        System.out.println("square root of "+d+" is "+x);
+        /*
+        int i=89;
+        int y;
+        y=Math.sqrt(i); //its throw an error because sqrt(double n) double value is compalsary
+        */
+
+        //output
+        //square root of 5.3 is 2.3021728866442674
+    }
+}
