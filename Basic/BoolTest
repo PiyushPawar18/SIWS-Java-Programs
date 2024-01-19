@@ -1,0 +1,26 @@
+package basic_intro;
+
+public class BoolTest {
+    public static void main(String[] args){
+        boolean b;
+        b=false;
+        System.out.println("b is: "+b);
+        b=true;
+        System.out.println("b is: "+b);
+
+        //A boolean value can control the if statement
+        if(b) System.out.println("This is executed...");  //because b is True
+
+        b=false;
+        if(b) System.out.println("This is not executed...");  //Because b is False
+
+        //Outcome of a relational operator is boolean value
+        System.out.println("10 > 9 is = "+(10>9));
+
+        //output
+//        b is: false
+//        b is: true
+//        This is executed...
+//        10>9 is true
+    }
+}
