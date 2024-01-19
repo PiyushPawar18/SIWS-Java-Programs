@@ -1,0 +1,17 @@
+package basic_intro;
+
+public class BasicMulti {
+    public static void main(String[] args) {
+        int i; //Declaration
+        i=100; //initialization
+        System.out.println("This is i :"+ i);
+        i=i*2;
+        System.out.print("The value of i*2 is :");
+        System.out.println(i);
+
+        //output
+//        This is i :100
+//        The value of i*2 is :200
+
+    }
+}
