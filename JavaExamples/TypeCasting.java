@@ -1,4 +1,4 @@
-class COD
+class TypeCasting
 {
   public static void main(String[] args) {
     byte b = 12;
